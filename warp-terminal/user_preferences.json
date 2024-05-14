@@ -1,0 +1,22 @@
+{
+  "prefs": {
+    "AliasExpansionBannerSeen": "true",
+    "NotebookFontSize": "14.0",
+    "FontName": "\"Hack Nerd Font\"",
+    "ChangelogVersions": "{\"v0.2024.05.07.08.02.stable_02\":true}",
+    "OpenFileEditor": "\"VSCode\"",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "ShowIndicatorsButton": "true",
+    "WelcomeTipsFeaturesUsed": "[{\"Hint\":\"CreateBlock\"},{\"Action\":\"SplitPane\"},{\"Action\":\"AiCommandSearch\"},{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockAction\"},{\"Hint\":\"BlockSelect\"},{\"Action\":\"CommandSearch\"},{\"Action\":\"OpenWarpDrive\"}]",
+    "Theme": "{\"Custom\":{\"name\":\"Catppuccin Mocha\",\"path\":\"/home/adilson/.local/share/warp-terminal/themes/catppuccin_mocha.yml\"}}",
+    "Spacing": "\"Normal\"",
+    "FontSize": "13.0",
+    "ExperimentId": "e38c3bfc-6a56-414c-aaeb-44ebd18bb08c",
+    "AutosuggestionAcceptedCount": "2",
+    "PreferMarkdownViewer": "true",
+    "AIAssistantRequestLimitInfo": "{\"limit\":40,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-06-12T23:07:22.849718Z\"}",
+    "ShowJumpToBottomOfBlockButton": "true",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "CompletionsOpenWhileTyping": "true"
+  }
+}
