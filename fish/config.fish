@@ -11,5 +11,6 @@ alias estudos='cd ~/Adilson/Pessoal/estudos'
 alias faculdade='cd ~/Adilson/Pessoal/faculdade'
 alias s='exit'
 alias v='cd ..'
+alias t='tmux'
 
 starship init fish | source
