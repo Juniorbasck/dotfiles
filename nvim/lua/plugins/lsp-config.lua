@@ -17,6 +17,8 @@ return {
     "neovim/nvim-lspconfig",
     lazy = false,
     config = function()
+      local on_attach = function(client, bufnr)
+      end
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
       local lspconfig = require("lspconfig")
@@ -32,15 +34,15 @@ return {
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
-      lspconfig.basedpyright.setup({
-        capabilities = capabilities
-      })
       lspconfig.clojure_lsp.setup({
         capabilities = capabilities
       })
-      lspconfig.basedpyright.setup({
-        capabilities = capabilities
+      lspconfig.pyright.setup({
+        on_attach = on_attach,
+        capabilities = capabilities,
+        filetypes = {"pytho"}
       })
+
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
       vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
       vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
