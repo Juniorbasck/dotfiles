@@ -1,16 +1,14 @@
+-- lazy-git.lua
 return {
   "kdheepak/lazygit.nvim",
-  cmd = {
-    "LazyGit",
-    "LazyGitConfig",
-    "LazyGitCurrentFile",
-    "LazyGitFilter",
-    "LazyGitFilterCurrentFile",
-  },
   dependencies = {
     "nvim-lua/plenary.nvim",
   },
   config = function()
-      vim.keymap.set("<leader>lg", "<cmd>LazyGit<cr>", {})
+    -- Configurando o atalho para abrir o LazyGit
+    -- <leader> é geralmente mapeado para a barra invertida (\) ou vírgula (,)
+    -- Aqui, estamos usando o atalho <leader>lg
+    vim.api.nvim_set_keymap('n', '<leader>lg', '<cmd>LazyGit<CR>', { noremap = true, silent = true })
   end,
 }
+
