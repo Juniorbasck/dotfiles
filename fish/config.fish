@@ -15,5 +15,6 @@ alias v='cd ..'
 alias t='tmux'
 alias f='fish'
 alias l='clear'
+alias d='docker'
 
 starship init fish | source
