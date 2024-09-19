@@ -17,5 +17,6 @@ alias f='fish'
 alias l='clear'
 alias d='docker'
 alias lg='lazygit'
+alias lzd='lazydocker'
 
 starship init fish | source
